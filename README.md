@@ -14,4 +14,4 @@ Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito
 
 ### ⚙️ Como usar
 1. Acesse https://gabls.github.io/PicPro/ e veja como anda o projeto.</br>
-(OBS: O site está em desenvolvimento e não irá possuir conhecimentos de responsividade pois não é a proposta do projeto)
+(_OBS: O site está em desenvolvimento e não irá possuir conhecimentos de responsividade pois não é a proposta do projeto_)
