@@ -1,8 +1,7 @@
 # PicPro
 
 ### 📜 Descrição
-Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito pela Kenzie Academy em parceria com o PicPay para acelerar a entrada no mercado de programação, mesmo sem conhecimento prévio e dinheiro para investir.
-<!-- Certificado de Conclusão do Projeto [aqui!]()-->
+Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito pela Kenzie Academy em parceria com o PicPay para acelerar a entrada no mercado de programação, mesmo sem conhecimento prévio e dinheiro para investir.<!-- Certificado de Conclusão do Projeto [aqui!]()-->
 <br/><br/>
 
 ### 💻 Tecnologias
@@ -14,5 +13,5 @@ Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito
 <br/><br/>
 
 ### ⚙️ Como usar
-1. Acesse https://gabls.github.io/Tic-Tac-Toe/ e veja o projeto concluido.
+1. Acesse https://gabls.github.io/Tic-Tac-Toe/ e veja o projeto concluido.</br>
 (OBS: O site está em desenvolvimento e não irá possuir conhecimentos de responsividade pois não é a proposta do projeto)
