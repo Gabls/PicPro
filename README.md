@@ -13,5 +13,5 @@ Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito
 <br/><br/>
 
 ### ⚙️ Como usar
-1. Acesse https://gabls.github.io/Tic-Tac-Toe/ e veja o projeto concluido.</br>
+1. Acesse https://gabls.github.io/PicPro/ e veja como anda o projeto.</br>
 (OBS: O site está em desenvolvimento e não irá possuir conhecimentos de responsividade pois não é a proposta do projeto)
