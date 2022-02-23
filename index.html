@@ -7,6 +7,10 @@
     <meta charset="UTF-8">
 
     <link rel="shortcut icon" href="IMG/picpay.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <title>PicPro</title>
 </head>
@@ -14,97 +18,98 @@
 
 <body>
     <header>
-        <img src="IMG/picpro.png" alt="Logo do PicPro">
-        <img src="IMG/kenzie.png" alt="Logo da Kenzie">
+        <div class="container flex">
+            <img src="IMG/picpro.png" alt="Logo do PicPro">
+            <img src="IMG/kenzie.png" alt="Logo da Kenzie">
+        </div>
     </header>
 
     <main>
-        <section id="user">
-            <div>
+        <section id="user" class="container normalText">
+            <div class="vertical flex">
                 <img src="IMG/user.png" alt="Icone do usuário">
                 <p>Olá, <strong>@Gabls</strong></p>
             </div>
 
-            <div>
+            <div class="spaceBtwe flex">
                 <p>Saldo PicPay <strong>R$0,00</strong></p>
-                <button>Extrato</button>
+                <button class="brdRadius">Extrato</button>
             </div>
 
-            <ul>
-                <li>
+            <ul class="spaceBtwe flex smallText">
+                <li class="brdRadius">
                     <img src="IMG/qrcode.png" alt="Icone do QR Code">
-                    <p>QR Code</p>
+                    <p><strong>QR Code</strong></p>
                 </li>
 
-                <li>
+                <li class="brdRadius">
                     <img src="IMG/pix.png" alt="Icone do Pix">
-                    <p>Pix</p>
+                    <p><strong>Pix</strong></p>
                 </li>
 
-                <li>
+                <li class="brdRadius">
                     <img src="IMG/codigo.png" alt="Icone do Boleto">
-                    <p>Pagar Boleto</p>
+                    <p><strong>Pagar Boleto</strong></p>
                 </li>
 
-                <li>
+                <li class="brdRadius">
                     <img src="IMG/cobrar.png" alt="Icone de Pagar Boleto">
-                    <p>Cobrar</p>
+                    <p><strong>Cobrar</strong></p>
                 </li>
             </ul>
         </section>
 
         <section id="content">
-            <div id="payment">
-                <p>Selecione a forma de pagamaneto</p>
-                <img src="IMG/banner.png" alt="Banner do PicPay">
-            </div>
-
-            <div id="qrcode">
-                <img src="IMG/qrcode-code.png" alt="QR Code">
-                <p>@Gabls</p>
-                <button>Cobre um amigo</button>
-                <p><strong>Compartilhar meu código</strong></p>
-            </div>
-
-            <div id="pix">
-                <img src="IMG/pix-logo.png" alt="Logo do Pix">
-
-                <div>
-                    <img src="IMG/pix1.png" alt="Icone opção enviar">
-                    <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>                   
+            <div class="container normalText">
+                <div id="payment">
+                    <p class="block brdRadius bigText"><strong>Selecione a forma de pagamaneto</strong></p>
+                    <img src="IMG/banner.png" alt="Banner do PicPay">
                 </div>
-
-                <div>
-                    <img src="IMG/pix2.png" alt="Icone opção inserir">
-                    <p>Insira um código Pix copia e cola para enviar um pagamento</p>                   
+    
+                <div id="qrcode" class="centerText">
+                    <img src="IMG/qrcode-code.png" alt="QR Code">
+                    <p class="smallText"><strong>@Gabls</strong></p>
+                    <button class="brdRadius normalText">Cobre um amigo</button>
+                    <a href="#"><strong>Compartilhar meu código</strong></a>
                 </div>
-            </div>
+    
+                <div id="pix">
+                    <img src="IMG/pix-logo.png" alt="Logo do Pix">
+    
+                    <div class="block brdRadius vertical flex">
+                        <img src="IMG/pix1.png" alt="Icone opção enviar">
+                        <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>                   
+                    </div>
 
-            <div id="boleto">
-                <img src="IMG/boleto.png" alt="Icone do Boleto">
-                <h2>Pagar com código de barras</h2>
-                <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista.</p>
-                <input type="text" placeholder="Insira o código de barras">
-            </div>
-
-            <div id="demand">
-                <img src="IMG/cobrar-image.png" alt="Icone do Cobrar">
-                <h2>Cobrar</h2>
-                <p>Divida a conta com os amigos de forma fácil.</p>
-
-                <div>
-                    <img src="IMG/picpay.png" alt="Logo do PicPay">
-                    <p>
-                        <strong>Amigos do PicPay</strong>
-                        Divida e acompanhe um gasto com pessoas por aqui
-                    </p>
+                    <div class="block brdRadius vertical flex">
+                        <img src="IMG/pix2.png" alt="Icone opção inserir">
+                        <p>Insira um código Pix copia e cola para enviar um pagamento</p>                   
+                    </div>
+                </div>
+    
+                <div id="boleto">
+                    <img src="IMG/boleto.png" alt="Icone do Boleto">
+                    <h2 class="bigText"><strong>Pagar com código de barras</strong></h2>
+                    <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista.</p>
+                    <input type="text" placeholder="Insira o código de barras" class="brdRadius">
+                </div>
+    
+                <div id="demand">
+                    <img src="IMG/cobrar-image.png" alt="Icone do Cobrar">
+                    <h2 class="bigText"><strong>Cobrar</strong></h2>
+                    <p>Divida a conta com os amigos de forma fácil.</p>
+    
+                    <div class="block vertical flex brdRadius">
+                        <img src="IMG/picpay.png" alt="Logo do PicPay">
+                        <p><strong>Amigos do PicPay</strong>Divida e acompanhe um gasto com pessoas por aqui</p>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <ul>
+        <ul class="container vertical flex spaceBtwe">
             <li>
                 <a href="#">
                     <img src="IMG/inicio.png" alt="Icone do início">
@@ -119,7 +124,7 @@
                 </a>
             </li>
 
-            <li>
+            <li id="mid">
                 <a href="#">
                     <img src="IMG/pagar.png" alt="Icone de pagar">
                     <p>Pagar</p>
