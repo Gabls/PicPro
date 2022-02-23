@@ -2,7 +2,7 @@
 
 ### 📜 Descrição
 Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito pela Kenzie Academy em parceria com o PicPay para acelerar a entrada no mercado de programação, mesmo sem conhecimento prévio e dinheiro para investir.
-Certificado de Conclusão do Projeto [aqui!]()
+<!-- Certificado de Conclusão do Projeto [aqui!]()-->
 <br/><br/>
 
 ### 💻 Tecnologias
@@ -15,3 +15,4 @@ Certificado de Conclusão do Projeto [aqui!]()
 
 ### ⚙️ Como usar
 1. Acesse https://gabls.github.io/Tic-Tac-Toe/ e veja o projeto concluido.
+(OBS: O site está em desenvolvimento e não irá possuir conhecimentos de responsividade pois não é a proposta do projeto)
