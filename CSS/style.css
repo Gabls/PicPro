@@ -1,0 +1,333 @@
+/*#region All*/
+:root{
+    --light-color: #FFFFFF;
+    --primary-color: #4a8864;
+    --secundary-color: #1F6F54;
+    --terciary-color: #F4F4F4;
+    --dark-color: #000000;
+
+    --light-border-color: rgba(255, 255, 255, 0.7);
+    --dark-border-color: rgba(0, 0, 0, 0.2);
+}
+
+*{
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);   
+}
+
+strong{
+    font-weight: bold;
+}
+
+p{
+    line-height: 20px;
+}
+/*#endregion*/
+
+/*#region Class*/
+.container{
+    max-width: 800px;
+
+    margin: 0px 150px;
+}
+.block{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.brdRadius{
+    border-radius: 15px;
+}
+.off{
+    display: none;
+}
+
+/*Flex*/
+.flex{
+    display: flex;
+}
+.vertical{
+    align-items: center;
+}
+.spaceBtwe{
+    justify-content: space-between;
+}
+
+/*Text*/
+.smallText{
+    font-size: 0.8rem;
+}
+.normalText{
+    font-size: 1rem;
+}
+.bigText{
+    font-size: 1.3rem;
+}
+.centerText{
+    text-align: center;   
+}
+/*#endregion*/
+
+/*#region Header*/
+header{
+    width: 100%;
+
+    padding: 20px 0px;
+
+    border-bottom: 2px solid var(--light-border-color);
+}
+    header img{
+        width: 140px;
+    }
+    header img:nth-of-type(1){
+        margin-right: 15px;
+
+        border-right: 2px solid var(--light-border-color);
+    }
+/*#endregion*/
+
+/*#region User*/
+#user{
+    padding: 40px 0px;
+
+    color: var(--light-color);
+}
+    #user strong{
+        display: block;
+        
+        margin-top: 5px;
+    }
+
+    /*#region User Information*/
+    #user div:nth-of-type(1){
+        padding-bottom: 40px;
+
+        border-bottom: 1.7px solid var(--dark-border-color);
+    }
+        #user div:nth-of-type(1) img{
+            width: 50px;
+        }
+        #user div:nth-of-type(1) p{
+            margin-left: 20px;
+        }
+    /*#endregion*/
+    
+    /*#region User Balance*/
+    #user div:nth-of-type(2){
+        padding: 40px 0px;
+    }
+        #user div:nth-of-type(2) button{
+            background-color: var(--light-color);
+
+            padding: 10px 70px;
+
+            border: none;
+
+            box-shadow: 2px 2px 4px var(--dark-border-color);
+
+            color: var(--dark-color);
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: all 0.7s;
+        }
+        #user div:nth-of-type(2) button:hover{
+            background-color: var(--secundary-color);
+            color: var(--light-color);
+        }
+    /*#endregion*/
+
+    /*#region User Transaction*/
+   #user ul li{
+        background-color: var(--secundary-color);
+        width: 170px;
+        height: 180px;
+
+        padding: 40px 20px;
+
+        cursor: pointer;
+
+        transition: all 0.7s;
+    }
+    #user ul img
+    {
+        width: 40px;
+    }
+    #user ul p{
+        width: 90px;
+
+        margin-top: 20px;
+    }
+    #user li:hover{
+        background-color: var(--light-color);
+    }
+    #user li:hover p{
+        color: var(--primary-color);
+    }
+    /*#endregion*/
+/*#endregion*/
+
+/*#region Content*/
+#content{
+    background-color: var(--light-color);
+
+    padding: 40px 0px;
+
+    border-bottom: 15px solid var(--terciary-color);
+    border-radius: 50px 50px 0px 0px;
+}
+    /*#region Payment*/
+    #payment p{
+        width: 100%;
+        padding: 30px 60px;
+    }
+    #payment img{
+        width: 100%;
+
+        margin: 40px 0px 0px 0px;
+    }
+    /*#endregion*/
+
+    /*#region QRCode*/
+    #qrcode img{
+        width: 180px;
+
+        margin-bottom: 20px;
+    }
+    #qrcode button{
+        background-color: var(--secundary-color);
+
+        margin: 40px 0px 20px 0px;
+
+        padding: 20px 200px;
+
+        border: none;
+
+        box-shadow: 2px 2px 4px var(--dark-border-color);
+
+        color: var(--light-color);
+        font-weight: bold;
+
+        cursor: pointer;
+
+        transition: all 0.7s;
+    }
+    #qrcode button:hover{
+        background-color: var(--primary-color);
+    }
+    #qrcode a{
+        display: block;
+
+        line-height: 30px;
+        color: var(--dark-color);
+    }
+    #qrcode a:hover{
+        text-decoration: underline;
+    }
+    /*#endregion*/
+
+    /*#region Pix*/
+    #pix img{
+        width: 180px;
+    }
+    #pix div{
+        width: 70%;
+
+        margin-top: 40px;
+
+        padding: 20px;
+
+        cursor: pointer;
+    }
+    #pix div img{
+        width: 60px;
+
+        margin-right: 20px;
+    }
+    /*#endregion*/
+
+    /*#region Boleto*/
+    #boleto img{
+        width: 80px;
+    }
+    #boleto  p{
+        width: 70%;
+
+        margin-top: 20px;
+    }
+    #boleto input{
+        background-color: var(--terciary-color);
+        width: 100%;
+        height: 50px;
+
+        margin-top: 20px;
+        padding: 0px 80px;
+
+        border: 1px solid #D2D2D2;
+
+        color: var(--dark-color);
+    }
+    /*#endregion*/
+
+    /*#region Demand*/
+    #demand img{
+        width: 80px;
+    }
+    #demand  p{
+        width: 70%;
+        
+        margin-top: 20px;
+    }
+    #demand div{
+        width: 70%;
+
+        margin-top: 20px;
+
+        padding: 20px;
+
+        cursor: pointer;
+    }
+        #demand div img{
+            width: 60px;
+            
+            margin-right: 20px;
+        }
+        #demand div p{
+            margin-top: 0px;
+        }
+        #demand div strong{
+            display: block;
+        }
+    /*#endregion*/
+/*#endregion*/
+
+/*#region Footer*/
+footer{
+    background-color: var(--light-color);
+}
+    footer li{
+        text-align: center;
+    }
+    footer img{
+        height: 40px;
+
+        margin-bottom: 20px;
+    }
+    footer a{
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color);
+    }
+
+    footer #mid{
+        transform: translateY(-40px);
+    }
+    footer #mid img{
+        height: 80px;
+    }
+/*#endregion*/
