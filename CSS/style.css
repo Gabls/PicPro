@@ -102,18 +102,36 @@ header{
         
         margin-top: 5px;
     }
+    #user strong img{
+        height: 1rem;
+
+        margin-left: 10px;
+
+        cursor: pointer;
+    }
 
     /*#region User Information*/
-    #user div:nth-of-type(1){
+    #user .info{
         padding-bottom: 40px;
 
         border-bottom: 1.7px solid var(--dark-border-color);
     }
-        #user div:nth-of-type(1) img{
+        #user .info img{
             width: 50px;
         }
-        #user div:nth-of-type(1) p{
+        #user .info p{
             margin-left: 20px;
+        }
+        #user .info div:nth-of-type(2){
+            padding: 0px;
+        }
+        #user .info div:nth-of-type(2) img{
+            width: 30px;
+
+            cursor: pointer;
+        }
+        #user .info div:nth-of-type(2) img:nth-of-type(1){
+            margin-right: 20px;
         }
     /*#endregion*/
     
