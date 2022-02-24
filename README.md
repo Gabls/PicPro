@@ -1,7 +1,7 @@
 # PicPro
 
 ### 📜 Descrição
-Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito pela Kenzie Academy em parceria com o PicPay para acelerar a entrada no mercado de programação, mesmo sem conhecimento prévio e dinheiro para investir.<!-- Certificado de Conclusão do Projeto [aqui!]()-->
+Projeto chamado de "PicPro" realizado nos dias 21/02/2022 até 24/02/2022, feito pela Kenzie Academy em parceria com o PicPay para acelerar a entrada no mercado de programação, mesmo sem conhecimento prévio e dinheiro para investir. Certificado de Conclusão do Projeto [aqui!](https://peepi.blob.core.windows.net/storage/340/rewards/Lr0Rf5lSQi6FU16MhHaivRxVA9gnhYQo.pdf)
 <br/><br/>
 
 ### 💻 Tecnologias
