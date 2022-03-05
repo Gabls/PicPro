@@ -44,24 +44,24 @@
             </div>
 
             <ul class="spaceBtwe flex smallText">
-                <li class="brdRadius">
-                    <img src="IMG/qrcode.png" alt="Icone do QR Code">
-                    <p><strong>QR Code</strong></p>
+                <li id="0" class="brdRadius">
+                    <img id="0" src="IMG/qrcode.png" alt="Icone do QR Code">
+                    <p><strong id="0">QR Code</strong></p>
                 </li>
 
-                <li class="brdRadius">
-                    <img src="IMG/pix.png" alt="Icone do Pix">
-                    <p><strong>Pix</strong></p>
+                <li id="1" class="brdRadius">
+                    <img id="1"  src="IMG/pix.png" alt="Icone do Pix">
+                    <p><strong id="1" >Pix</strong></p>
                 </li>
 
-                <li class="brdRadius">
-                    <img src="IMG/codigo.png" alt="Icone do Boleto">
-                    <p><strong>Pagar Boleto</strong></p>
+                <li id="2" class="brdRadius">
+                    <img id="2" src="IMG/codigo.png" alt="Icone do Boleto">
+                    <p><strong id="2">Pagar Boleto</strong></p>
                 </li>
 
-                <li class="brdRadius">
-                    <img src="IMG/cobrar.png" alt="Icone de Pagar Boleto">
-                    <p><strong>Cobrar</strong></p>
+                <li id="3" class="brdRadius">
+                    <img id="3" src="IMG/cobrar.png" alt="Icone de Pagar Boleto">
+                    <p><strong id="3">Cobrar</strong></p>
                 </li>
             </ul>
         </section>
@@ -73,14 +73,14 @@
                     <img src="IMG/banner.png" alt="Banner do PicPay">
                 </div>
     
-                <div id="qrcode" class="centerText">
+                <div id="qrcode" data-id="0" class="centerText off">
                     <img src="IMG/qrcode-code.png" alt="QR Code">
                     <p class="smallText"><strong>@Gabls</strong></p>
                     <button class="brdRadius normalText">Cobre um amigo</button>
                     <a href="#"><strong>Compartilhar meu código</strong></a>
                 </div>
     
-                <div id="pix">
+                <div id="pix" data-id="1" class="off">
                     <img src="IMG/pix-logo.png" alt="Logo do Pix">
     
                     <div class="block brdRadius vertical flex">
@@ -94,14 +94,14 @@
                     </div>
                 </div>
     
-                <div id="boleto">
+                <div id="boleto" data-id="2" class="off">
                     <img src="IMG/boleto.png" alt="Icone do Boleto">
                     <h2 class="bigText"><strong>Pagar com código de barras</strong></h2>
                     <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista.</p>
                     <input type="text" placeholder="Insira o código de barras" class="brdRadius">
                 </div>
     
-                <div id="demand">
+                <div id="demand" data-id="3" class="off">
                     <img src="IMG/cobrar-image.png" alt="Icone do Cobrar">
                     <h2 class="bigText"><strong>Cobrar</strong></h2>
                     <p>Divida a conta com os amigos de forma fácil.</p>
@@ -118,41 +118,43 @@
     <footer>
         <ul class="container vertical flex spaceBtwe">
             <li>
-                <a href="#">
+                <a>
                     <img src="IMG/inicio.png" alt="Icone do início">
                     <p>Início</p>
                 </a>
             </li>
             
             <li>
-                <a href="#">
+                <a>
                     <img src="IMG/carteira-icon.png" alt="Icone da carteira">
                     <p>Carteira</p>
                 </a>
             </li>
 
             <li id="mid">
-                <a href="#">
+                <a>
                     <img src="IMG/pagar.png" alt="Icone de pagar">
                     <p>Pagar</p>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a>
                     <img src="IMG/notificacao.png" alt="Icone de notificação">
                     <p>Notificações</p>
                 </a>
             </li>
 
             <li>
-                <a href="#">
+                <a>
                     <img src="IMG/bolsa.png" alt="Icone de bolsa">
                     <p>Store</p>
                 </a>
             </li>
         </ul>
     </footer>
+
+    <script src="JS/script.js"></script>
 </body>
 
 
